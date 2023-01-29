@@ -21,11 +21,13 @@
                         0 0 50px $color-principal,
                         0 0 100px $color-principal;
         }
+        color: $color-font;
+        text-decoration: none;
+        
     }
 
     p{
-        color:$color-font;
-        list-style: none;
+        color:black;
     }
 }
 
