@@ -5,11 +5,11 @@
     display:flex;
     flex-direction: column;
     font-family: $font-desc;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 15px;
-    line-height: 1.7;
-    color: #c4c3ca;
-    background-color: #1f2029;
+    line-height: 1;
+    color: black;
+    background-color: whitesmoke;
     overflow-x: hidden;
 }
 
@@ -28,7 +28,7 @@
             }
         }
         p {
-            font-weight: 500;
+            font-weight: 400;
             font-size: 14px;
             line-height: 1.7;
         }
@@ -54,7 +54,7 @@
         [type="checkbox"]:checked,
         [type="checkbox"]:not(:checked){
             position: absolute;
-        left: -9999px;
+            left: -9999px;
         }
         .checkbox:checked + label,
         .checkbox:not(:checked) + label{
@@ -155,11 +155,11 @@
             padding: 0;
         }
         .form-style {
-            padding: 13px 20px;
+            padding: 1px 1px;
             padding-left: 55px;
             height: 48px;
             width: 100%;
-            font-weight: 500;
+            font-weight: 400;
             border-radius: 4px;
             font-size: 14px;
             line-height: 22px;
@@ -275,8 +275,6 @@
             color: $color-font;
             box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
         }
-    
-
 
     }
 
