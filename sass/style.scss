@@ -2,7 +2,7 @@
 @import 'header';
 @import 'footer';
 @import 'banner';
-@import 'login';
+@import 'login'; 
 
 
 
@@ -14,9 +14,9 @@
 
 body{
     display:grid;
-    grid-template-areas: "header header header header"
+    /* grid-template-areas: "header header header header"
                         "main main main main"
-                        "footer footer footer footer";
+                        "footer footer footer footer"; */
                             
     background-color: $color-fondos;
 

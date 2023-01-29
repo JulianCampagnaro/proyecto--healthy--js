@@ -358,7 +358,9 @@ header li {
 
 body {
   display: grid;
-  grid-template-areas: "header header header header" "main main main main" "footer footer footer footer";
+  /* grid-template-areas: "header header header header"
+                      "main main main main"
+                      "footer footer footer footer"; */
   background-color: whitesmoke;
   /* .main{
       display:flex;
