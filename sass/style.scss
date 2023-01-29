@@ -2,6 +2,9 @@
 @import 'header';
 @import 'footer';
 @import 'banner';
+@import 'login';
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900');
+
 
 /* Siempre siempre debemos comenzar con esto, pero acordate que arriba metemos todas las secciones de sass que vamos a usar para estandarizar */
 * {
