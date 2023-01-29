@@ -1,0 +1,54 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+@import 'banner';
+
+/* Siempre siempre debemos comenzar con esto, pero acordate que arriba metemos todas las secciones de sass que vamos a usar para estandarizar */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display:grid;
+    grid-template-areas: "header header header header"
+                        "main main main main"
+                        "footer footer footer footer";
+                            
+    background-color: $color-fondos;
+
+    .container-fluid{
+        grid-area: main;
+    }
+    
+    /* .main{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center; */
+
+        /* &__titular{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-family: $font-titulos;
+            color:$color-font;
+            margin-top:10px;
+            font-size:xx-large;
+        }
+
+        &__desc{
+            display:flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            font-size: $size-desc-main;
+            font-family: $font-desc;
+            color:$color-font;
+        } */
+    
+}

@@ -1,0 +1,28 @@
+.banner{
+    .main_banner{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        width: auto;
+        /* min-height: 100vh; */
+
+        .content{ 
+            max-width:fit-content;
+            h1{
+                font-family: $font-titulos;
+                font-size: 5em;
+                color: $color-font;
+            }
+            p{
+                font-family: $font-desc;
+                font-size: 1.2em;
+                color: $color-desc-banner;
+            }
+        }
+
+
+    }
+
+}
