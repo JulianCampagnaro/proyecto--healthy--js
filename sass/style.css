@@ -116,6 +116,12 @@ header li {
 .login-section a :hover {
   text-decoration: none;
 }
+.login-section .contenedor_tarjeta {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
 .login-section .link {
   color: #c4c3ca;
 }
@@ -169,7 +175,7 @@ header li {
   width: 36px;
   height: 36px;
   border-radius: 50%;
-  color: #e40555;
+  color: whitesmoke;
   background-color: #e40555;
   font-family: "unicons";
   content: "\eb4f";
@@ -188,7 +194,7 @@ header li {
   position: relative;
   width: 440px;
   max-width: 100%;
-  height: 400px;
+  height: 450px;
   transform-style: preserve-3d;
   perspective: 800px;
   margin-top: 60px;
@@ -209,7 +215,7 @@ header li {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/1462889/pat.svg");
   background-position: bottom center;
   background-repeat: no-repeat;
-  background-size: 300%;
+  background-size: 200%;
   position: absolute;
   border-radius: 6px;
   left: 0;
@@ -362,7 +368,7 @@ header li {
 body {
   display: grid;
   grid-template-areas: "header " "main " "footer ";
-  background-color: whitesmoke;
+  /* background-color: $color-fondos; */
   /* .main{
       display:flex;
       flex-direction: column;
@@ -394,4 +400,7 @@ body {
 }
 body .container-fluid {
   grid-area: main;
+}
+body .main_background {
+  background-color: whitesmoke;
 }/*# sourceMappingURL=style.css.map */

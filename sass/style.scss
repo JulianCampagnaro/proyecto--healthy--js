@@ -4,8 +4,6 @@
 @import 'banner';
 @import 'login'; 
 
-
-
 /* Siempre siempre debemos comenzar con esto, pero acordate que arriba metemos todas las secciones de sass que vamos a usar para estandarizar */
 * {
     padding: 0;
@@ -18,10 +16,14 @@ body{
                         "main "
                         "footer ";
                             
-    background-color: $color-fondos;
+    /* background-color: $color-fondos; */
 
     .container-fluid{
         grid-area: main;
+    }
+
+    .main_background{
+        background-color: whitesmoke;
     }
     
     /* .main{
